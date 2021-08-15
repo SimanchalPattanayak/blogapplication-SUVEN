@@ -14,7 +14,7 @@ SECRET_KEY = 'se@@p^k_xc_d%x7#s&%udc+qi1qt0^5#lg0-@@qbhz7y%7gku8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['blogapplication-suven.herokuapp.com','http://127.0.0.1:8000/admin/']
+ALLOWED_HOSTS = ['blogapplication-suven.herokuapp.com']
 
 
 # Application definition
@@ -122,7 +122,7 @@ STATIC_URL = '/static/'
 # MEDIA_URL = '/media/'
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-STATIC_ROOT = os.path.join(BASE_DIR,'static')
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
 
 from ckeditor.configs import DEFAULT_CONFIG
 CKEDITOR_UPLOAD_PATH = "blog/uploads/"

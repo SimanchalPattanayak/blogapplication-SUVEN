@@ -14,7 +14,7 @@ SECRET_KEY = 'se@@p^k_xc_d%x7#s&%udc+qi1qt0^5#lg0-@@qbhz7y%7gku8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['blogapplication-suven.herokuapp.com','127.0.0.1:8000']
+ALLOWED_HOSTS = ['blogapplication-suven.herokuapp.com','http://127.0.0.1:8000/admin/']
 
 
 # Application definition

@@ -30,7 +30,7 @@ urlpatterns = [
     path('view_all/<str:query>', view_all, name = 'view_all'),
     path('ckeditor/', include('ckeditor_uploader.urls')),
     path('accounts/', include('allauth.urls'))
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 if settings.DEBUG:
 	urlpatterns += static(settings.STATIC_URL, document_root = settings.STATIC_ROOT)

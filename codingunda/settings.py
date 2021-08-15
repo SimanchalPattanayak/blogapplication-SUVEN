@@ -122,7 +122,7 @@ STATIC_URL = '/static/'
 # MEDIA_URL = '/media/'
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
 
 from ckeditor.configs import DEFAULT_CONFIG
 CKEDITOR_UPLOAD_PATH = "blog/uploads/"
